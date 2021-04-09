@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* ssid     = "wifi";         // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "0700848237";     // The password of the Wi-Fi network
+const char* ssid     = "";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "";     // The password of the Wi-Fi network
 ESP8266WebServer server(80);
 
 void setup() {
